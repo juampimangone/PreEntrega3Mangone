@@ -1,0 +1,46 @@
+/*Carousel*/
+
+//Botones//
+
+.carousel-item button{
+    background-color: yellow;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    &:hover{
+        background-color: blue;
+        border-color: blue;
+    }
+}
+
+//Textos//
+
+.carousel-caption{ 
+    h2{
+    color: black;
+    font-weight: bold;
+    }
+    p{
+        color: black;
+        font-weight: bold;
+    }
+}
+
+//Responsive de texto//
+
+@media (max-width:540px) {
+    .carousel-caption{ 
+        h2{
+        font-size:14px;
+        padding-top: 3rem;
+        }
+        p{
+        font-size:7px;
+        padding-bottom: 1px;
+        }
+        button{
+        scale: 0.5;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+/*Nuestros proyectos*/
+
+//Variables//
+
+$Ancho-logo-redSocial:100px;
+$Color-ancla-redSocial:black;
+
+//Estilos de los vínculos a las redes sociales//
+
+.redesSociales{
+    img{
+        width:$Ancho-logo-redSocial
+    }
+
+    a{
+        color: $Color-ancla-redSocial;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+//Responsive armónico de los logos//
+
+@media (max-width:992px) {
+    .facebook{
+        margin-bottom:10%;
+    }
+    .instagram{
+        margin-bottom:10%;
+    }
+    .redesSociales img{
+        scale:0.8;
+    }
+}

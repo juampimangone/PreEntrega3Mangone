@@ -1,0 +1,48 @@
+/*Botones*/
+
+//Botones principales//
+
+@mixin botonesPrincipales{
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 0%;
+    color:black;
+    font-weight: bold;
+
+    &:hover{
+        background-color: rgb(231, 231, 109);
+        border-color: rgb(231, 231, 109);
+        color: black;
+        font-weight: bold;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }   
+}
+
+.meInteresa, .quieroVermasinfo, .contactar, .hablemos{
+    @include botonesPrincipales;
+}
+
+//Botón enviar formulario//
+
+.enviar{
+    padding-left: 10%;
+    margin-bottom:100px;
+
+    button{
+        color: #333;
+        background-color: #eee ;
+        border-color: #ddd;
+        border-radius: 0;
+    
+        &:hover{
+            color: #333;
+            background-color: darkgrey ;
+            border-color: gray;
+            border-radius: 0;
+        }
+    }
+}

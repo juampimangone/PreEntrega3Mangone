@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/*Carousel*/
+.carousel-item button {
+  background-color: yellow;
+}
+.carousel-item button a {
+  color: black;
+  text-decoration: none;
+}
+.carousel-item button:hover {
+  background-color: blue;
+  border-color: blue;
+}
+
+.carousel-caption h2 {
+  color: black;
+  font-weight: bold;
+}
+.carousel-caption p {
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 540px) {
+  .carousel-caption h2 {
+    font-size: 14px;
+    padding-top: 3rem;
+  }
+  .carousel-caption p {
+    font-size: 7px;
+    padding-bottom: 1px;
+  }
+  .carousel-caption button {
+    scale: 0.5;
+  }
+}
+/*Botones*/
+.meInteresa, .quieroVermasinfo, .contactar, .hablemos {
+  background-color: yellow;
+  border-color: yellow;
+  border-radius: 0%;
+  color: black;
+  font-weight: bold;
+}
+.meInteresa:hover, .quieroVermasinfo:hover, .contactar:hover, .hablemos:hover {
+  background-color: rgb(231, 231, 109);
+  border-color: rgb(231, 231, 109);
+  color: black;
+  font-weight: bold;
+}
+.meInteresa a, .quieroVermasinfo a, .contactar a, .hablemos a {
+  color: black;
+  text-decoration: none;
+}
+
+.enviar {
+  padding-left: 10%;
+  margin-bottom: 100px;
+}
+.enviar button {
+  color: #333;
+  background-color: #eee;
+  border-color: #ddd;
+  border-radius: 0;
+}
+.enviar button:hover {
+  color: #333;
+  background-color: darkgrey;
+  border-color: gray;
+  border-radius: 0;
+}
+
+/*Footer*/
+footer {
+  background-color: black;
+  color: yellow;
+}
+footer .infoExtrafooter img {
+  width: 25px;
+}
+
+/*Página de Inicio*/
+.tic, .medalla, .rayito {
+  width: 50px;
+}
+
+.itemsInicio li {
+  margin-bottom: 10px;
+}
+
+.seccionesDelinicio img, .bombeoSolar img, .calentamientoDeagua img, .generarElectricidad img {
+  align-items: center;
+  padding: 10%;
+}
+.seccionesDelinicio .textosInicio, .bombeoSolar .textosInicio, .calentamientoDeagua .textosInicio, .generarElectricidad .textosInicio {
+  align-items: center;
+  padding: 5%;
+}
+
+.generarElectricidad {
+  background-color: grey;
+}
+
+.bombeoSolar {
+  background-color: darkblue;
+}
+.bombeoSolar .textosInicio {
+  color: white;
+}
+
+/*Nosotros/Quienes somos*/
+.quienesSomos {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.seccionesDenosotros img, .seguridad img, .naturaleza img, .emprendedurismo img {
+  align-items: center;
+  padding: 10%;
+}
+.seccionesDenosotros .textosDenosotros, .seguridad .textosDenosotros, .naturaleza .textosDenosotros, .emprendedurismo .textosDenosotros {
+  align-items: center;
+  padding: 5%;
+}
+
+.emprendedurismo {
+  background-color: lightgrey;
+}
+
+.naturaleza {
+  background-color: black;
+  color: white;
+}
+
+/*Nuestros proyectos*/
+.redesSociales img {
+  width: 100px;
+}
+.redesSociales a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .facebook {
+    margin-bottom: 10%;
+  }
+  .instagram {
+    margin-bottom: 10%;
+  }
+  .redesSociales img {
+    scale: 0.8;
+  }
+}
+/*Contacto*/
+.tituloContacto {
+  margin-left: 10%;
+}
+
+.form-label, .form-control, .form-select, .form-check {
+  margin-left: 10%;
+  width: 50%;
+}
+
+/*Donde estamos?/Ubicación*/
+.dondeEstamostitulo {
+  padding-top: 10%;
+}
+
+.infoUbicacion {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 2.5%;
+}
+.infoUbicacion img {
+  width: 4%;
+}
+
+/*# sourceMappingURL=estilo.css.map */

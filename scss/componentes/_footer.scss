@@ -1,0 +1,18 @@
+/*Footer*/
+
+//Variables//
+
+$Color-fondo-footer:black;
+$Color-fuente-footer:yellow;
+$Ancho-imagenes-footer:25px;
+
+//Estilo footer//
+
+footer{
+    background-color: $Color-fondo-footer;
+    color: $Color-fuente-footer;
+    
+    .infoExtrafooter img{
+        width: $Ancho-imagenes-footer;
+    }
+}

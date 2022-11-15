@@ -1,0 +1,44 @@
+/*Nosotros/Quienes somos*/
+
+//Variables//
+
+$Padding-descripcion-nosotros:10%;
+$Color-fondo-emprendedurismo:lightgrey;
+$Color-fondo-naturaleza:black;
+$Color-fuente-naturaleza:white;
+
+//Descripción//
+
+.quienesSomos{
+    padding-left: $Padding-descripcion-nosotros;
+    padding-right: $Padding-descripcion-nosotros;
+}
+
+//Secciones//
+
+.seccionesDenosotros{
+    img{
+        align-items: center;
+        padding: 10%;
+    }
+
+    .textosDenosotros{
+        align-items: center;
+        padding: 5%;
+    }
+}
+
+.emprendedurismo{
+    @extend .seccionesDenosotros;
+    background-color: $Color-fondo-emprendedurismo;
+}
+
+.naturaleza{
+    @extend .seccionesDenosotros;
+    background-color: $Color-fondo-naturaleza;
+    color: $Color-fuente-naturaleza;
+}
+
+.seguridad{
+    @extend .seccionesDenosotros;
+}

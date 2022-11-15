@@ -1,0 +1,23 @@
+/*Contacto*/
+
+//Variables//
+
+$Margen-izquierdo-formulario:10%;
+$Ancho-formulario:50%;
+
+//Título contacto//
+
+.tituloContacto{
+    margin-left: $Margen-izquierdo-formulario;
+}
+
+//Estilo formulario//
+
+@mixin estiloFormulario{
+    margin-left: $Margen-izquierdo-formulario;
+    width: $Ancho-formulario;
+}
+
+.form-label, .form-control, .form-select, .form-check{
+    @include estiloFormulario;
+}

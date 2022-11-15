@@ -1,0 +1,52 @@
+/*Página de Inicio*/
+
+//Variables//
+
+$Ancho-pilares-asperos: 50px;
+$Espaciado-listas-inicio: 10px;
+$Color-fondo-generarElectricidad: grey;
+$Color-fondo-bombeoSolar:darkblue;
+$Color-fuente-bombeoSolar:white;
+
+//Íconos de los pilares de la empresa//
+.tic, .medalla, .rayito{
+    width: $Ancho-pilares-asperos;
+}
+
+//Espaciado de listas en la página de inicio//
+
+.itemsInicio li{
+    margin-bottom: $Espaciado-listas-inicio;
+}
+
+//Secciones del inicio//
+
+.seccionesDelinicio{
+    img{
+        align-items: center;
+        padding: 10%;
+    }
+
+    .textosInicio{
+        align-items: center;
+        padding: 5%;
+    }
+}
+
+.generarElectricidad{
+    @extend .seccionesDelinicio;
+    background-color: $Color-fondo-generarElectricidad;
+}
+
+.calentamientoDeagua{
+    @extend .seccionesDelinicio;
+}
+
+.bombeoSolar{
+    @extend .seccionesDelinicio;
+    background-color: $Color-fondo-bombeoSolar;
+    
+    .textosInicio{
+        color: $Color-fuente-bombeoSolar;
+    }
+}

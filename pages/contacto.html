@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2da entrega - Juan Mangone</title>
+    <link rel="shortcut icon" href="../img/LOGO-CERRO-ASPERO-SIN-FONDO-LETRA-BLANCA-150x150.jpg" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand w-50" href="#"><img src="../img/Logo-Factura-2.jpg" alt="" class="w-50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end text-uppercase fw-bold" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">¿Quienes somos?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./proyectos.html">Proyectos realizados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./ubicacion.html">Ubicación</a>
+                </li>
+                </ul>
+            </nav>   
+        </div>
+    </header>
+    <main>
+        <br><br><br><br><br>
+        <h2 class="fw-bold tituloContacto">Contacto</h2>
+        <br><br>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Juan Mangone">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="formGroupExampleInput2" placeholder="+54 11 3212-1783">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="juanmangone@coderhouse.com.ar">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Información</option>
+                <option value="1">Cotización</option>
+                <option value="2">Sugerencia</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentario o mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                <label class="form-check-label" for="invalidCheck3">
+                    No soy un robot
+                </label>
+                <div id="invalidCheck3Feedback" class="invalid-feedback">
+                Verificación obligatoria.
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="col-12 enviar">
+            <button class="btn btn-primary botonEnviar" type="submit">Enviar</button>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container-fluid text-center elFooter">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="../img/logo2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-md-6 text-start infoExtrafooter">
+                    <div class="ubicación d-flex w-100 h-50 align-items-end justify-content-center">
+                        <img src="../img/ubicacion.png" class="ubicación__img width-100" style="margin-bottom: 1rem;" alt="ubicación">
+                        <p class="fw-bold"> Buenos Aires: +54 11 3653 0411</p>
+                    </div>
+                    <div class="correo d-flex w-100 h-50 align-items-start justify-content-center">
+                        <img class="correo__img" src="../img/yellow_mail_preview.png" alt="correo">
+                        <p class="fw-bold"> info@cerroasperosolar.com.ar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
