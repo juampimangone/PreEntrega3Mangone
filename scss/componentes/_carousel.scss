@@ -17,9 +17,10 @@
 //Textos//
 
 .carousel-caption{ 
-    h2{
+    h1{
     color: black;
     font-weight: bold;
+    font-size: 22px;
     }
     p{
         color: black;
@@ -31,7 +32,7 @@
 
 @media (max-width:540px) {
     .carousel-caption{ 
-        h2{
+        h1{
         font-size:14px;
         padding-top: 3rem;
         }
@@ -41,6 +42,12 @@
         }
         button{
         scale: 0.5;
+        }
+    }
+    .carousel-item button{
+        background-color: yellow;
+        a{
+            font-size: 14px;
         }
     }
 }
